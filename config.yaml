@@ -1,0 +1,7 @@
+deployment:
+  host: "127.0.0.1"
+  port: 8080
+  api_url: "/api/convertImage"
+
+otherConfig:
+  resolution: 100 
