@@ -74,6 +74,7 @@ Makefile will build the binary executable file for the service.
 ### Local Debugging 
 
 * Create the virtual environment: `python3 -m venv virtualenv`
+* Activate the virtualenv: source `virtualenv/bin/activate`
 * Install the prerequisites: `pip install -r requirements.txt`
 * It provides the following methods to run the service:
   * `python image_convert_service.py path_config_file` It will read configurations including host address, port and resolution.
